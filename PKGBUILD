@@ -3,8 +3,8 @@
 pkgname=gnome-terminal-linuxmint
 _pkgname=gnome-terminal
 pkgver=3.52.0
-_mintver=mint1+wilma
-pkgrel=1
+_mintver=mint2+xia
+pkgrel=2
 pkgdesc="The GNOME Terminal Emulator"
 url="https://wiki.gnome.org/Apps/Terminal"
 arch=(x86_64)
@@ -52,7 +52,7 @@ optdepends=(
 )
 source=("http://packages.linuxmint.com/pool/upstream/g/gnome-terminal/gnome-terminal_${pkgver}+${_mintver}.tar.xz")
 #source=("https://mirrors.cernet.edu.cn/linuxmint/pool/upstream/g/gnome-terminal/gnome-terminal_${pkgver}+${_mintver}.tar.xz")
-b2sums=('d38e519e6386d56566a48d8432da8e6b9bb9b3b238b6b987bc51a178231b3ffffb7a7947ed9f2713198d465b472340e71de6040468d0e3eafcf73dcc6604f651')
+b2sums=('80c2ca7d097742b710a3a76f2f4e4bebc67645a581d8a95d43d521cc4c36af839053ae0cfc2c7019fc1ba7b5b31c0ea1f58a4a867574a1863e127c8e9ce9a5b6')
 
 prepare() {
   cd $_pkgname
