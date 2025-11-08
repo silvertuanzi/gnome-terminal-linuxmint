@@ -1,7 +1,7 @@
 pkgbase = gnome-terminal-linuxmint
 	pkgdesc = The GNOME Terminal Emulator
-	pkgver = 3.52.0
-	pkgrel = 2
+	pkgver = 3.56.2
+	pkgrel = 1
 	url = https://wiki.gnome.org/Apps/Terminal
 	arch = x86_64
 	license = GPL-3.0-or-later
@@ -14,6 +14,7 @@ pkgbase = gnome-terminal-linuxmint
 	makedepends = meson
 	makedepends = yelp-tools
 	makedepends = libnautilus-extension
+	depends = cairo
 	depends = dconf
 	depends = gcc-libs
 	depends = glib2
@@ -29,7 +30,7 @@ pkgbase = gnome-terminal-linuxmint
 	optdepends = libnautilus-extension: Nautilus integration
 	provides = gnome-terminal
 	conflicts = gnome-terminal
-	source = http://packages.linuxmint.com/pool/upstream/g/gnome-terminal/gnome-terminal_3.52.0+mint2+xia.tar.xz
-	b2sums = 80c2ca7d097742b710a3a76f2f4e4bebc67645a581d8a95d43d521cc4c36af839053ae0cfc2c7019fc1ba7b5b31c0ea1f58a4a867574a1863e127c8e9ce9a5b6
+	source = http://packages.linuxmint.com/pool/upstream/g/gnome-terminal/gnome-terminal_3.56.2+mint1+gigi.tar.xz
+	b2sums = 6ec3753b8c0d2ed3e13e0f13732662cff568e7053adac8af6533a902181a35b6a49a313c5c026ca143590a62982f308843b7933077c5e43cf32eba76cc82b9c4
 
 pkgname = gnome-terminal-linuxmint
